@@ -1,0 +1,8 @@
+{
+    "SERVER_URL": "http://vxheadhunterWebAPI-dev.dlp.knxnet.cn/api/",
+    "SERVER_URLNOAPI": "http://vxheadhunterWebAPI-dev.dlp.knxnet.cn/",
+    "ATTACHMENT_URL": "http://vxtalent-dev.dlp.knxnet.cn/",
+    "LINK_URL": "http://vxtalent-dev.dlp.knxnet.cn/",
+    "Dynamic_Form": "http://vxtalentwebapi-dev.dlp.knxnet.cn/"
+  }
+  

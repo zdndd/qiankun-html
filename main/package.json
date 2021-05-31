@@ -1,0 +1,36 @@
+{
+  "name": "my-webpack-project",
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve",
+    "examples:start": "npm-run-all --parallel start:*",
+    "start:main": "webpack serve",
+    "start:vue": "cd ../vue && yarn start",
+    "start:angular8": "cd ../angular8 && yarn serve:qiankun",
+    "start:hcm": "cd ../hcm-frontend && yarn serve:qiankun",
+    "start:angular9": "cd ../angular9 && yarn serve:qiankun"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "qiankun": "^2.4.1",
+    "zone.js": "^0.11.4"
+  },
+  "devDependencies": {
+    "@webpack-cli/generators": "^2.1.0",
+    "css-loader": "^5.2.4",
+    "html-webpack-plugin": "^5.3.1",
+    "npm-run-all": "^4.1.5",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
