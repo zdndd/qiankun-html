@@ -1,0 +1,20 @@
+{
+  "name": "qiankun",
+  "description": "基座html的乾坤项目",
+  "version": "1.0.0",
+  "main": "./index.js",
+  "scripts": {
+    "start": "webpack server"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^4.5.2",
+    "qiankun": "^2.4.4"
+  },
+  "devDependencies": {
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "author": "zdndd",
+  "license": "MIT"
+}
